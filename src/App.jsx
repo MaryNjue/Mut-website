@@ -1,4 +1,3 @@
-// src/App.js
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "./components/HomePage";
 import LeadershipPage from "./components/LeadershipPage";
@@ -11,10 +10,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        {/* Shared Navigation Bar */}
-        {/* Use shared navigation on all pages */}
-        
-        {/* Route Definitions */}
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/leadership" element={<LeadershipPage />} />
