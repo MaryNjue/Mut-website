@@ -3,7 +3,7 @@ import Homepage from "./components/HomePage";
 import LeadershipPage from "./components/LeadershipPage";
 import TracksPage from "./components/TracksPage";
 import EventsPage from "./components/EventsPage";
-import './app.css';
+import './App.css';
 
 
 const App = () => {
