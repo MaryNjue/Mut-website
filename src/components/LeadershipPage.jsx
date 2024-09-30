@@ -6,6 +6,13 @@ import imgVictory from '../assets/victoria.jpg'
 import imgAllan from '../assets/allann.jpg'
 import imgWebster from '../assets/webster.jpg'
 import Navigation from './navigation';
+import imgbridget from '../assets/bridget.jpg'
+import imgruth from '../assets/ruth.jpg'
+import imgcarolyn from '../assets/carolyn.jpg'
+import imgevyonn from '../assets/evelyn.png'
+import imgmanase from '../assets/manasee.jpg'
+import imgstanely from '../assets/stanely.jpg'
+import imgpaul from '../assets/paul.jpg'
 
 
 const Leadership = () => {
@@ -32,13 +39,13 @@ const Leadership = () => {
       name: "Bridget Gitonga",
       title: "Secretary",
       bio: "As the Secretary of MUTC, Bridget Gitonga ensures smooth communication and management of club activities.",
-      img: "https://via.placeholder.com/150"
+      img: imgbridget
     },
     {
       name: "Ruth Mutisya",
       title: "Treasurer",
       bio: "Ruth Mutisya handles the financial aspects of the club, ensuring that all resources are managed effectively.",
-      img: "https://via.placeholder.com/150"
+      img: imgruth
     },
     {
       name: "Webster Ifedha",
@@ -50,31 +57,31 @@ const Leadership = () => {
       name: "Manase Gunga",
       title: "UI/UX Lead",
       bio: "Manase Gunga leads UI/UX design efforts within the club, helping members understand the importance of user-centered design.",
-      img: "https://via.placeholder.com/150"
+      img: imgmanase
     },
     {
       name: "Carolyne Githenduka",
       title: "Web Development Lead",
       bio: "Carolyne Githenduka oversees the web development track, helping members build and enhance their web development skills.",
-      img: "https://via.placeholder.com/150"
+      img: imgcarolyn
     },
     {
       name: "Stanley Amunze",
       title: "Mobile Apps Development Lead",
       bio: "Stanley Amunze leads the mobile development track, mentoring members on mobile app development.",
-      img: "https://via.placeholder.com/150"
+      img: imgstanely
     },
     {
       name: "Paul Karanja",
       title: "Cloud Engineering Lead",
       bio: "Paul Karanja is responsible for cloud engineering within the club, guiding members on cloud technologies.",
-      img: "https://via.placeholder.com/150"
+      img: imgpaul
     },
     {
       name: "Evyonn Mbithe",
       title: "Power Platform Lead",
       bio: "Evyonn Mbithe leads the Power Platform initiatives within the club, ensuring members are well-versed in modern technology solutions.",
-      img: "https://via.placeholder.com/150"
+      img: imgevyonn
     },
   ];
 

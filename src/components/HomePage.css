@@ -18,6 +18,7 @@
     padding: 2rem;
     position: absolute;
     top: 0;
+    padding-right: 15rem;
 }
 
 .logo {
@@ -110,7 +111,7 @@
 }
 
 .card p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 /* Testimonials Section */

@@ -1,9 +1,11 @@
-// src/components/Navigation.js
+
 import { Link } from "react-router-dom";
-import './HomePage.css'; // Assuming this is where the nav styles are
+import './HomePage.css'; 
 
 const Navigation = () => {
   return (
+    <div className="header-navigation">
+                <h1 className="logo">MUTC</h1>
     <nav>
       <ul className="navigation-list">
         <li className="navigation-item">
@@ -20,6 +22,7 @@ const Navigation = () => {
         </li>
       </ul>
     </nav>
+    </div>
   );
 }
 
