@@ -13,6 +13,7 @@ import imgevyonn from '../assets/evelyn.png'
 import imgmanase from '../assets/manasee.jpg'
 import imgstanely from '../assets/stanely.jpg'
 import imgpaul from '../assets/paul.jpg'
+import Footer from './footer';
 
 
 const Leadership = () => {
@@ -105,6 +106,7 @@ const Leadership = () => {
           </div>
         ))}
       </div>
+      <Footer/>
     </section>
   );
 };

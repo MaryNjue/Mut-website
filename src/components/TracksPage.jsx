@@ -6,6 +6,7 @@ import mobileAppsImg from '../assets/app.jpg';
 import cloudEngImg from '../assets/cloud.jpg';
 import powerPlatformImg from '../assets/power.jpg';
 import Navigation from './navigation';
+import Footer from './footer';
 
 const Tracks = () => {
   return (
@@ -109,6 +110,7 @@ const Tracks = () => {
           <button type="submit">Submit</button>
         </form>
       </div>
+      <Footer/>
     </div>
   );
 }

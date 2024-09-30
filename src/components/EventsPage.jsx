@@ -6,6 +6,7 @@ import mobileAppsImg from '../assets/app.jpg';
 import cloudEngImg from '../assets/cloud.jpg';
 import powerPlatformImg from '../assets/power.jpg';
 import Navigation from './navigation';
+import Footer from './footer';
 
 const Events = () => {
   const events = [
@@ -78,6 +79,7 @@ const Events = () => {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -8,14 +8,6 @@ function Footer() {
         <div className="footer-logo">
           <h2>MUTC</h2>
         </div>
-        <div className="footer-nav">
-          <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/tracks">Tracks</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </div>
         <div className="footer-social">
           <ul>
             <li><a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a></li>
@@ -26,13 +18,13 @@ function Footer() {
         </div>
 
         <div className="footer-contact">
-          <p>Email: info@mutc.com</p>
-          <p>Phone: +254 712 345 678</p>
+          <p>Email: njuemarywanjiru@gmail.com</p>
+          <p>Phone: +254 745 994 294</p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2024 MUTC. All Rights Reserved.</p>
+        <p>&copy; <a href="https://github.com/MaryNjue">Mary Njue</a>. All Rights Reserved.</p>
       </div>
     </footer>
   );
